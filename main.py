@@ -10,8 +10,10 @@ different_hello = [
     "Namaskar", "Anyoang"
 ]
 
+color = "\033[32m"
+done = "\033[0m"
 i = random.randint(0, 6)
-print(f"{different_hello[i]}")
+print(f"{color} {different_hello[i]} {done}")
 
 print(
-    "\n\npress run the programe again to see the different language greeting")
+    "\n\nPlease run the programe again to see the different language greeting")
